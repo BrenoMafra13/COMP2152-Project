@@ -1,0 +1,4 @@
+Hero brM has killed a monster and gained 3 stars.
+Total monsters killed: 1
+Monster has killed the hero.
+Total monsters killed: 1
