@@ -2,3 +2,39 @@ Hero brM has killed a monster and gained 3 stars.
 Total monsters killed: 1
 Monster has killed the hero.
 Total monsters killed: 1
+Hero Eus has killed a monster and gained 3 stars.
+Total monsters killed: 2
+Monster has killed the hero.
+Total monsters killed: 2
+Hero tet has killed a monster and gained 3 stars.
+Total monsters killed: 3
+Monster has killed the hero.
+Total monsters killed: 3
+Hero AsS has killed a monster and gained 3 stars.
+Total monsters killed: 4
+Hero lul has killed a monster and gained 3 stars.
+Total monsters killed: 5
+Hero Wiw has killed a monster and gained 4 stars.
+Total monsters killed: 6
+Hero Lul has killed a monster and gained 3 stars.
+Total monsters killed: 7
+Hero aa has killed a monster and gained 3 stars.
+Total monsters killed: 8
+Hero AsA has killed a monster and gained 4 stars.
+Total monsters killed: 9
+Hero KAK has killed a monster and gained 4 stars.
+Total monsters killed: 10
+Hero AsA has killed a monster and gained 3 stars.
+Total monsters killed: 11
+Hero sfs has killed a monster and gained 3 stars.
+Total monsters killed: 12
+Hero AsA has killed a monster and gained 3 stars.
+Total monsters killed: 13
+Hero ll has killed a monster and gained 3 stars.
+Total monsters killed: 14
+Hero mem has killed a monster and gained 3 stars.
+Total monsters killed: 15
+Hero lky has killed a monster and gained 3 stars.
+Total monsters killed: 16
+Hero Win has killed a monster and gained 3 stars.
+Total monsters killed: 17
