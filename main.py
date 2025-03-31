@@ -115,21 +115,14 @@ if not input_invalid:
     print("    |", end="    ")
     input("Roll the dice for the monster's health points (Press enter)")
     m_health_points = random.choice(big_dice_options)
-    print("    |    Player rolled " + str(m_health_points) + " health points for the monster")
+    print("    |    Monster rolled " + str(m_health_points) + " health points")
 
     # Collect Loot
     print("    ------------------------------------------------------------------")
-    print("    |    !!You find a loot bag!! You look inside to find 2 items:")
-    print("    |", end="    ")
-    input("Roll for first item (enter)")
+    print("    |    !!You find a loot bag!! You look inside to find 4 items:")
+    input("Press enter to see what's inside and make your choices...")
 
-    # Collect Loot First time
-    loot_options, belt = functions.collect_loot(loot_options, belt)
-    print("    ------------------------------------------------------------------")
-    print("    |", end="    ")
-    input("Roll for second item (Press enter)")
-
-    # Collect Loot Second time
+    # Collect Loot and Make Choices
     loot_options, belt = functions.collect_loot(loot_options, belt)
 
     print("    |    You're super neat, so you organize your belt alphabetically:")
@@ -137,9 +130,11 @@ if not input_invalid:
     print("    |    Your belt: ", belt)
 
     # Use Loot
-    belt, health_points = functions.use_loot(belt, health_points)
+    belt, health_points, combat_strength = functions.use_loot(belt, health_points, combat_strength)
 
-    print("    ------------------------------------------------------------------")
+    print("    |", end="    ")
+    print(f"Updated combat strength after using items: {combat_strength}")
+
     print("    |", end="    ")
     input("Analyze the roll (Press enter)")
     # Compare Player vs Monster's strength
