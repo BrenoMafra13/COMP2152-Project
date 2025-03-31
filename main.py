@@ -121,6 +121,11 @@ if not input_invalid:
 
     # --- Loot Collection ---
     print("    ------------------------------------------------------------------")
+    print("    |    !!You find a loot bag!! You look inside to find 4 items:")
+    input("Press enter to see what's inside and make your choices...")
+
+    # Collect Loot and Make Choices
+=======
     print("    |    !!You find a loot bag!! You look inside to find 2 items:")
     print("    |", end="    ")
     input("Roll for first item (Press enter)")
@@ -133,10 +138,15 @@ if not input_invalid:
     belt.sort()
     print("    |    Your belt: ", belt)
 
+    # Use Loot
+    belt, health_points, combat_strength = functions.use_loot(belt, health_points, combat_strength)
+
+    print("    |", end="    ")
+    print(f"Updated combat strength after using items: {combat_strength}")
+=======
     # --- Use Loot ---
     belt, health_points = functions.use_loot(belt, health_points)
 
-    print("    ------------------------------------------------------------------")
     print("    |", end="    ")
     input("Analyze the roll (Press enter)")
     print("    |    --- You are matched in strength: " + str(combat_strength == m_combat_strength))
