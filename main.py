@@ -7,7 +7,7 @@ from hero import Hero
 print("Operating System:", os.name)
 print("Python Version:", platform.python_version())
 
-# Define two Dice
+# Define two Dice.
 small_dice_options = list(range(1, 7))
 big_dice_options = list(range(1, 21))
 
